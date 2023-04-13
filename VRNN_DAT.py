@@ -1,4 +1,4 @@
-# VRNN with disentangled representational learning + DAT (on z + phi_x)
+# VRNN with disentangled representational learning + DAT (on z)
 from tensorflow.keras.layers import Dense, Input, GRU, LSTM
 from tensorflow.keras import Model, Sequential
 from tensorflow.keras.activations import softplus
