@@ -2,9 +2,16 @@
 
 Authors: Shageenderan Sapai, Junn Yong Loo, Ze Yang Ding, Chee Pin Tan, Raphael C.-W. Phan, Vishnu Monn Baskaran, Surya Girinatha Nurzaman
 
-Reference: 
+Reference: @inproceedings{sapai2023cross,
+  title={Cross-domain transfer learning and state inference for soft robots via a semi-supervised sequential variational bayes framework},
+  author={Sapai, Shageenderan and Loo, Junn Yong and Ding, Ze Yang and Tan, Chee Pin and Phan, Rapha{\"e}l C-W and Baskaran, Vishnu Monn and Nurzaman, Surya Girinatha},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={552--559},
+  year={2023},
+  organization={IEEE}
+}
  
-Paper Link: 
+Paper Link: https://ieeexplore.ieee.org/abstract/document/10160662
 
 Contact: shageenderan.sapai@monash.edu, loo.junnyong@monash.edu
 
@@ -23,31 +30,5 @@ python3 -m [ADD HERE].
 
 (3) Data directory  
 - Contains the PSF dataset
-
-(4) main_dsvb.py
-- [ADD HERE]
-
-### Command inputs:
-
--   data_name: sine, stock, or energy
--   seq_len: sequence length
--   module: gru, lstm, or lstmLN
--   hidden_dim: hidden dimensions
--   num_layers: number of layers
--   iterations: number of training iterations
--   batch_size: the number of samples in each batch
--   metric_iterations: number of iterations for metric computation
-
-Note that network parameters should be optimized for different datasets.
-
-### Example command
-
-```shell
-$ python3 main_timegan.py --data_name stock --seq_len 24 --module gru
---hidden_dim 24 --num_layer 3 --iteration 50000 --batch_size 128 
---metric_iteration 10
-```
-
-### Outputs
 
 
